@@ -1,13 +1,236 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.topcenterlinks {
+  /*put top right of website  */
+  /* add some padding to the top */
+  display: inline-block;
+  color: #fff;
+  font-size: 0.6em;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Geneva"; /* padding right */
+  /* top right */
 }
+.topleftlinks {
+  /*put top left of website  */
+  /* add some padding to the top */
+  color: #fff;
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  /* top left */
+  display: inline-flex;
+}
+.topleftlinks p {
+  /* top right */
+  font-size: 1em;
+  text-decoration: none;
+}
+.topcenterlinks a {
+  margin: 0 4px;
+  /* top right */
+  text-decoration: none;
+}
+.social-media {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  /* move to bottom */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  white-space: normal;
+}
+.social-media i {
+  font-size: 3em;
+}
+/* paragraph style */
+/* change background color of website */
+.home {
+  text-align: center;
+}
+.home p {
+  font-size: 1em;
+  color: black;
+  font-family: "Geneva";
+  text-align: center;
+  line-height: 1.8;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+.aboutme p {
+  font-size: 1em;
+  color: white;
+  font-family: "Geneva";
+  text-align: center;
+  line-height: 1.8;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+.topleftlinks navbar {
+  padding-top: 10%;
+}
+.home img {
+  height: 30em;
+  border-radius: 50%;
+  border-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+.middleland h1 {
+  text-align: center;
+}
+.middleland p {
+  text-align: center;
+}
+h1 {
+  font-size: 2.8em;
+  font-family: "open sans";
+}
+h1 {
+  text-align: center;
+  color: black;
+  /* add some padding */
+}
+body {
+  background-color: #51a3a3;
+  /* make image cover the whole page */
+  background-size: cover;
+  /* make image fixed */
+  background-attachment: fixed;
+  /* make image center */
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+/* change size of icons */
+.social-media a {
+  font-size: 1.5em;
+  color: white;
+  /* move to bottom */
+}
+/* make css for small */
+.aboutme small {
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  /* change spacing */
+  text-decoration: none;
+  border: black;
+  border-style: groove;
+  padding: 0.5em;
+}
+/* remove link color */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  /* move a little to the right */
+  text-align: center;
+  color: black;
+  /* change sizing */
+  font-size: 1.8em;
+  /* change font */
+  font-family: "Garamond";
+}
+html {
+  overflow-y: scroll;
+}
+/* chagne span style */
+.smalling span {
+  color: white;
+  font-size: 0.5em;
+  /* change font roboto */
+  font-family: "Monospace", "Courier New", Courier, monospace;
+  /* change font weight */
+  font-weight: 300;
+  /* change line height */
+  line-height: 1.5em;
+  /* change text align */
+  text-align: center;
+}
+.about {
+  /* left align */
+  text-align: left;
+}
+.about p {
+  padding-left: 6%;
+  text-align: left;
+  font-size: medium;
+}
+/* change link color */
+.about a {
+  color: #5ca4a9;
+  text-decoration: none;
+}
+a {
+  color: white;
+}
+nav {
+  position: sticky;
+  top: 0;
+}
+a {
+  text-decoration: none;
+}
+.aboutme {
+  background-color: #355691;
+  text-align: center;
+}
+.aboutme h1 {
+  color: black;
+  font-family: "open sans";
+  padding-top: 1em;
+}
+.projtitle h1 {
+  padding-top: 1em;
+}
+.aboutme p {
+  text-align: center;
+  color: black;
+}
+lest {
+  list-style: none;
+
+  display: flex;
+  gap: 30px;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  background-color: grey;
+  text-decoration: none;
+  font-size: 100%;
+}
+nav {
+  position: sticky;
+  top: 0;
+}
+.toprightlinks {
+  /*put top right of website  */
+  /* add some padding to the top */
+  color: #fff;
+  padding-left: 50%;
+  font-size: 200%;
+  text-decoration: none;
+  top: 0;
+  right: 0;
+  /* padding right */
+  /* top right */
+}
+.toprightlinks p {
+  font-size: 100%;
+}
+.social-media-contact {
+  background-color: gray;
+  text-align: center;
+}
+.social-media-contact a {
+  font-size: 3em;
 }
